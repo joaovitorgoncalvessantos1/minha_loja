@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+body{
+    box-sizing: border-box;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    background-color: #e5e5e5;
+}
+
+.cabeçalho {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #000000;
+    color: rgb(248, 248, 247);
+}
+.cabeçalho ul a{
+    text-decoration: none;
+    color: rgb(248, 248, 247);
+}
+.cabeçalho ul a:hover{
+    color: rgb(190, 190, 190)
+}
+.produto{
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+;
+}
+.produtos {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+
+}
+.produto img {
+    width: 100%;
+    height: auto;
+    border-radius: 15px;
+    transition: transform 0.3s ease;
+}
+.produto img:hover {
+    transform: scale(1.05);
+}
+.info-produto {
+    margin-top: -5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding:20px;
+    text-align: center;
+    background-color: #fff;
+    border-radius: 15px;
+}
+
+.btn {
+    background-color: #024959;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    width: 150px;
+    height: 50px;
+    border-radius: 10px;
+    font-size: 16px;
+
+
+}
+.btn:hover {
+    color: #fff;
+    background-color: #036b83;
+}
+
+footer{
+    text-align: center;
+    padding: 20px;
+    background-color: #000000;
+    color: rgb(248, 248, 247);}
