@@ -15,7 +15,7 @@ HTML5
 CSS3
 
 ▶️ Como usar
-[Acesse o site: Minha Loja]{https://joaovitorgoncalvessantos1.github.io/minha_loja/}
+[Acesse o site: Minha Loja](https://joaovitorgoncalvessantos1.github.io/minha_loja/)
 
 Navegue pelos produtos exibidos na página
 
